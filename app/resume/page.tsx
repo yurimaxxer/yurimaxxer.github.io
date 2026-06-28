@@ -12,9 +12,9 @@ export default function Projects() {
   ];
 
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-start justify-center">
       <StarBackground />
-      <div className="bg-gray-600/20 border-x border-gray-300/10 p-6 w-200 h-screen">
+      <div className="bg-gray-600/20 border-x border-gray-300/10 p-6 w-200">
         <div className="flex p-3 gap-8">
             <div className="w-40 h-40 overflow-hidden border-5 rounded border-blue">
                 <img src="/Screencast_20260207_203523-ezgif.com-video-to-gif-converter.gif" alt="Profile Picture" className="w-full h-full object-cover object-[35%]" />
@@ -29,7 +29,7 @@ export default function Projects() {
               <h1 className="text-1xl font-bold p-2 rounded-t">Favourite Games</h1>
           </div>
           <div className="bg-gray-900/60 m-2 border-0 rounded">
-            <div className="grid grid-cols-5 gap-4 p-4 border border-gray-900/60 rounded">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4 border border-gray-900/60 rounded">
               {favouriteGames.map((game) => (
                 <a
                   key={game.appid}
