@@ -69,7 +69,7 @@ export default function Projects() {
               <div className="border border-gray-900/60 rounded">
               <GameCard
                 title="Monash University"
-                role="Student"
+                role="Student - Bachelor of Engineering (Software)"
                 time="3 years"
                 href="https://www.monash.edu/"
                 lastPlayed="today"
