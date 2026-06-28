@@ -20,7 +20,7 @@ export default function Projects() {
         
         {/* Header */}
         <div className="flex p-3 gap-8">
-          <div className="w-40 h-40 overflow-hidden border-4 rounded border-blue-500">
+          <div className="w-40 h-40 overflow-hidden border-4 rounded border">
             <img
               src="/Screencast_20260207_203523-ezgif.com-video-to-gif-converter.gif"
               alt="Profile Picture"
