@@ -30,7 +30,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="min-h-full flex flex-col overflow-hidden">
+      <body className="min-h-full flex flex-col overflow-x-hidden">
         <Navbar/>
         <main className="flex-1 overflow-y-auto">{children}</main>
       </body>
