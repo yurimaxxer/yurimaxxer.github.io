@@ -16,11 +16,11 @@ export default function Projects() {
       <StarBackground />
 
       {/* Main container */}
-      <div className="bg-gray-600/20 border-x border-gray-300/10 p-6 w-full max-w-5xl min-h-screen overflow-y-auto">
+      <div className="bg-gray-600/20 border-x sm:border-x border-gray-300/10 p-3 sm:p-6 w-full max-w-5xl min-h-screen overflow-y-auto">
         
         {/* Header */}
-        <div className="flex p-3 gap-8">
-          <div className="w-40 h-40 overflow-hidden border-4 rounded border">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start p-3 gap-6 text-center sm:text-left">
+          <div className="w-32 h-32 sm:w-40 sm:h-40 overflow-hidden border-4 rounded">
             <img
               src="/Screencast_20260207_203523-ezgif.com-video-to-gif-converter.gif"
               alt="Profile Picture"
@@ -29,10 +29,10 @@ export default function Projects() {
           </div>
 
           <div>
-            <h1 className="text-2xl font-bold">
+            <h1 className="text-xl sm:text-2xl font-bold">
               Yurimaxxer (Amelia Swainston)
             </h1>
-            <h1>🇦🇺 Victoria, Australia</h1>
+            <p className="text-gray-300">🇦🇺 Victoria, Australia</p>
           </div>
         </div>
 
@@ -40,11 +40,11 @@ export default function Projects() {
         <div className="bg-gray-700/20 pb-2 mb-6 rounded-lg border border-gray-300/10">
           
           <div className="bg-gray-200/20 rounded-t">
-            <h1 className="text-xl font-bold p-2">Favourite Games</h1>
+            <h1 className="text-lg sm:text-xl font-bold p-2">Favourite Games</h1>
           </div>
 
           <div className="bg-gray-900/60 m-2 rounded">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
               {favouriteGames.map((game) => (
                 <a
                   key={game.appid}
@@ -68,7 +68,7 @@ export default function Projects() {
         <div className="bg-gray-700/20 pb-2 mb-6 rounded-lg border border-gray-300/10">
           
           <div className="bg-gray-200/20 rounded-t">
-            <h1 className="text-xl font-bold p-2">Recent Activity</h1>
+            <h1 className="text-lg sm:text-xl font-bold p-2">Recent Activity</h1>
           </div>
 
           <div className="bg-gray-900/60 m-2 rounded">
