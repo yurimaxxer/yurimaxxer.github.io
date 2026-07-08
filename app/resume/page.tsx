@@ -43,7 +43,7 @@ export default function Projects() {
             <h1 className="text-lg sm:text-xl font-bold p-2">Favourite Games</h1>
           </div>
 
-          <div className="bg-gray-900/60 m-2 rounded">
+          <div className="bg-gray-900/60 m-2 p-3 rounded">
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
               {favouriteGames.map((game) => (
                 <a
